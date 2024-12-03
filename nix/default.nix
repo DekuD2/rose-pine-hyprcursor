@@ -8,12 +8,17 @@ stdenv.mkDerivation (finalAttrs: {
     rev = "d2c0e6802f0ed1e7c638bb27b5aa8587b578d083";
     sha256 = "sha256-ArUX5qlqAXUqcRqHz4QxXy3KgkfasTPA/Qwf6D2kV0U=";
   };
+  # tarball = nixpkgs.fetchTarball {
+  #   src = "https://github.com/rose-pine/cursor/releases/download/v1.1.0/BreezeX-RosePine-Linux.tar.xz";
+  #   sha256 = "";
+  # }
 
   installPhase = ''
     runHook preInstall
 
     mkdir -p $out/share/icons/rose-pine-hyprcursor
     cp -R . $out/share/icons/rose-pine-hyprcursor/
+    # tar -xvf $tarball -C $out/share/icons/
     
     runHook postInstall
   '';
