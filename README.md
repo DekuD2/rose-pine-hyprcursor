@@ -9,23 +9,11 @@
 > [!NOTE]
 > This only includes [the "dark" version](https://github.com/rose-pine/cursor#gallery) of the original Rose Pine BreezeX cursor theme. The uncompressed cursor SVG's are included in the `hyprcursor_uncompressed` directory if you want to make any changes to the SVG's.
 
-This is a [Rose Pine](https://github.com/rose-pine/cursor) remix of the original [BreezeX](https://github.com/ful1e5/BreezeX_Cursor) cursor theme. Then repackaged again for use with Hyprland's new [Hyprcursor format](https://blog.vaxry.net/articles/2024-cursors).
+This is a [Rose Pine](https://github.com/rose-pine/cursor) remix of the original [BreezeX](https://github.com/ful1e5/BreezeX_Cursor) cursor theme. Then repackaged again for use with Hyprland's new [Hyprcursor format](https://blog.vaxry.net/articles/2024-cursors). **This fork also includes the CURSOR_X variant.**
 
 ## 🏗️ Installation
 
 > **Only useable with Hyprland with the new [Hyprcursor](https://github.com/hyprwm/hyprcursor) packaging format**
-
-### Manual
-
-1. Extract to `~/.local/share/icons`
-
-### Arch
-
-1. Install from the [AUR](https://aur.archlinux.org/packages/rose-pine-hyprcursor)
-
-```bash
-yay -S rose-pine-hyprcursor
-```
 
 ### Nix
 
