@@ -20,6 +20,7 @@
         packages.default = pkgs.callPackage ./nix/default.nix { nixpkgs = pkgs; };
         environment.variables = {
           HYPRCURSOR_THEME = "rose-pine-hyprcursor";
+          XCURSOR_THEMEi = "BreezeX-RosePine-Linux";
         };
 
         formatter = nixpkgs.${system}.nixpkgs-fmt;
